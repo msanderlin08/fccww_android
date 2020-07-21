@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.fccww">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fccww_launcher"
+        android:label="FCCWW"
+        android:roundIcon="@mipmap/fccww_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PodcastActivity"></activity>
+        <activity android:name=".LocateUsActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".InstagramActivity" />
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".ConnectActivity" />
+        <activity android:name=".PrayerActivity" />
+        <activity android:name=".GivingActivity" />
+        <activity
+            android:name=".BibleActivity"
+            android:label="@string/title_activity_bible"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChurchEventActivity"
+            android:label="@string/title_activity_church_event"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fccww.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OutreachActivity"
+            android:label="@string/title_activity_outreach"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.fccww.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

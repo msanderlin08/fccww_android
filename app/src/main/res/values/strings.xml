@@ -1,0 +1,36 @@
+<resources>
+    <string name="add_fcc_image">Add FCC Image</string>
+    <string name="add_ww_image">Add WW Image</string>
+    <string name="app_name">FCC_WaterWay</string>
+    <string name="bible">Bible</string>
+    <string name="church_office_phone">Church Office Phone:</string>
+    <string name="church_phone_no">(479)-273-2596</string>
+    <string name="church_secretary_email">Church Secretary Email:</string>
+    <string name="click_images">Click the Images Below to open Google Maps</string>
+    <string name="connect">Connect</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="events">Events</string>
+    <string name="facebook">Facebook</string>
+    <string name="fcc_location">First Christian Church\n 807 SE 14th St.\n Bentonville, AR</string>
+    <string name="fcc_waterway">FCC AND WATERWAY</string>
+    <string name="fccww_logo">FCCWW Logo</string>
+    <string name="giving">Giving</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="message">Message:</string>
+    <string name="outreach">Outreach</string>
+    <string name="podcast">Podcast</string>
+    <string name="prayer_requests">Prayer Requests</string>
+    <string name="send">Send</string>
+    <string name="sendEmail">msanderlin08@gmail.com</string>
+    <string name="shar_email">shar@fccww.org</string>
+    <string name="subject">Subject:</string>
+    <string name="title_activity_church_event">ChurchEventActivity</string>
+    <string name="title_activity_event">title_activity_event</string>
+    <string name="title_activity_outreach">OutreachActivity</string>
+    <string name="title_activity_bible">BibleActivity</string>
+    <string name="twitter">Twitter</string>
+    <string name="worship_time_fcc">\n11:00AM TRADITIONAL WORSHIP @ FCC</string>
+    <string name="worship_time_ww">\n9:00 and 10:00am COFFEEHOUSE \nWORSHIP @ WATERWAY</string>
+    <string name="ww_location">WaterWay\n 4074 SW H St.\n Bentonville, AR</string>
+    <string name="Instgram">Instagram</string>
+</resources>
